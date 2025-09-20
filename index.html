@@ -525,31 +525,31 @@
               </svg>
             </div>
           </div>
-          <div class="modal-icon">
-            <label class="modal-label" for="user-text">Comment</label>
+          <div class="checkbox-container">
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              name="user-message"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="checkbox-container">
+          <div class="modal-icon-checkbox">
             <input
               type="checkbox"
               class="modal-checkbox visually-hidden"
-              id="user-comment"
-              name="user-comment"
-              value="checked"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
             />
-            <label class="modal-label-checkbox" for="user-comment"
+            <label class="modal-label-checkbox" for="user-privacy"
               ><span class="modal-label-box">
                 <svg class="icon-ok" width="10" height="8">
                   <use href="./images/icons.svg#icon-ok"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href> Privacy Policy</a></label
+              <a class="modal-text" href> Privacy Policy</a></label
             >
           </div>
           <button type="submit" class="modal-button">Send</button>
