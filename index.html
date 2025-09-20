@@ -468,6 +468,7 @@
         </div>
       </div>
     </footer>
+    <!-- -------модальное окно------ -->
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -483,7 +484,7 @@
               <input
                 type="text"
                 class="modal-input"
-                name="user-mame"
+                name="user-name"
                 placeholder="Your name"
                 id="user-name"
                 required
@@ -533,14 +534,15 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-icon">
+          <div class="checkbox-container">
             <input
               type="checkbox"
               class="modal-checkbox visually-hidden"
-              id="checkbox"
+              id="user-comment"
+              name="user-comment"
               value="checked"
             />
-            <label class="modal-label-checkbox" for="checkbox"
+            <label class="modal-label-checkbox" for="user-comment"
               ><span class="modal-label-box">
                 <svg class="icon-ok" width="10" height="8">
                   <use href="./images/icons.svg#icon-ok"></use>
