@@ -415,6 +415,28 @@ color: #ffffff;
 
 .modal-input-footer::placeholder {color: #ffffff;}
 
+.footer-submit-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-submit-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
 
         .footer-decor { 
           margin-right: 120px
@@ -627,10 +649,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   text-decoration-skip-ink: none;
   color: #4d5ae5;}
 
-  .modal-label-checkbox .modal-label-box {
+  .modal-label-box {
     display: inline-flex;
-      /*align-items: center;
-      justify-content: center;*/
+      align-items: center;
+      justify-content: center;
       width: 16px;
       height: 16px;
       border-radius: 2px;
